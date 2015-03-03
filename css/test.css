@@ -14,8 +14,7 @@ body
     .side-menu {
         float: left;
         border-top: 1px solid rgba(255,255,255,0.1);
-        background-color: red;
-        width: 4%;
+        width: 100%;
      }
     
     .side-menu > li {  
@@ -106,6 +105,15 @@ body
         width: 100%;
     }
 
+    #sidebarBLACK{
+           background: red;
+    float: left;
+    height: 100%;
+    padding-left: 45px;
+    position: absolute;
+	width: 10px;
+ 
+    }
 
 #sidebar {
     background: rgba(0,0,0,0.3);
@@ -116,6 +124,8 @@ body
 	width: 200px;
     }
 
+    
+    
 #sidebar .side-menu  {
     margin: 0;
 }
