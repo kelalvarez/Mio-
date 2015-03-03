@@ -63,7 +63,7 @@ body
     
  
 .side-menu > li:hover .menu-item { /*distancia entre lista y menu*/
-    left: 0px; //45px
+    left: 1px;
     opacity: 1;
     visibility: visible;
     z-index: 20;
