@@ -1,0 +1,15 @@
+[class*="side-"] {
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Left Menu */
+[class*="side-icon-"] {
+    width: 44px;
+    height: 44px;
+    color: white;
+}
+
+.side-icon-cliente { background-image: url(../img/icon/cliente.png); }
+.side-icon-index { background-image: url(../img/icon/home1.png); }
+.side-icon-reserva { background-image: url(../img/icon/reserva.png); }

@@ -1,0 +1,139 @@
+body
+{
+	background-image: url(../img/body/violate.jpg);
+	font-family: Helvetica, Arial;
+	font-size: 16px;
+}
+
+* {
+		margin:0px;
+		padding:0px;
+  }		
+
+
+    .side-menu {
+        float: left;
+        border-top: 1px solid rgba(255,255,255,0.1);
+        width: 100%;
+
+
+     }
+    
+    .side-menu > li {  
+        border-bottom: 0px solid rgba(255,255,255,0.1);
+        float: left;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .side-menu > li > a:hover, .side-menu > li.active > a, .side-menu > li > a.active:hover, .side-menu > li.hovered > a {
+        background-color: rgba(0,0,0,0.5);
+        color: #fff;
+        opacity: 1;
+    }    
+    .side-menu .menu-item { 
+	    background: rgba(0,0,0,0.95);
+        border-left: 1px solid rgba(255,255,255,0.1);
+	    display: block;
+        float: left;
+        left: 70px;
+	    line-height: normal;
+        margin-left: 45px; 
+        opacity: 0;        
+        position: absolute;
+	    text-align: left;
+        visibility: hidden;
+        white-space: nowrap;
+	    width: 188px;
+	    z-index: 9;
+        -moz-transition: all 230ms;
+        -o-transition: all 230ms;
+        -webkit-transition: left 230ms;
+	    -webkit-backface-visibility: hidden;
+    }
+
+    .side-menu ul.menu-item {
+        width: 100%;
+        top: 42px;
+    	padding: 5px 0 13px;
+    }
+    
+    ul.menu-item a.active {
+        color: #FFD600;
+        font-weight: bold;
+    }
+    
+ 
+.side-menu > li:hover .menu-item { /*distancia entre lista y menu*/
+    left: 45px;
+    opacity: 1;
+    visibility: visible;
+    z-index: 20;
+    }
+
+.side-menu > li > a {
+    display: inline-block;
+    position: relative;
+    z-index: 10;
+    font-size: 12px;
+    height: 42px;
+    margin-bottom: -4px;
+    text-align: center;
+    opacity: 0.55;
+}
+
+.side-menu span.menu-item {
+    top: 0;
+    padding: 13px 15px 13px 8px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+.side-menu .dropdown span.menu-item {
+    top: 0;
+}
+
+#sidebar .side-menu {
+        width: 45px;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        background: rgba(0,0,0,0.5);
+    }
+    
+#sidebar .side-menu > li > a {
+        width: 100%;
+    }
+
+
+#sidebar {
+    background: rgba(0,0,0,0.3);
+    float: left;
+    height: 100%;
+    padding-left: 45px;
+    position: absolute;
+	width: 200px;
+    }
+
+#sidebar .side-menu  {
+    margin: 0;
+}
+
+#sidebar.toggled {
+        position: absolute;
+        left: -233px;
+    }
+
+
+.side-menu > li > a {
+    display: inline-block;
+    position: relative;
+    z-index: 10;
+    font-size: 12px;
+    height: 42px;
+    margin-bottom: -4px;
+    text-align: center;
+    opacity: 0.55;
+}
+
