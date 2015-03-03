@@ -63,7 +63,7 @@ body
     
  
 .side-menu > li:hover .menu-item { /*distancia entre lista y menu*/
-    left: 45px;
+    left: 0px; //45px
     opacity: 1;
     visibility: visible;
     z-index: 20;
@@ -93,27 +93,27 @@ body
     top: 0;
 }
 
-#sidebar .side-menu {
-        width: 45px;
-        height: 100%;
-        left: 0;
-        position: absolute;
-        background: rgba(0,0,0,0.5);
-    }
+//
+//sidebar .side-menu {
+  //      width: 45px;
+    //    height: 100%;
+      //  left: 0;
+        //position: absolute;
+  //      background: rgba(0,0,0,0.5);
+   // }
     
 #sidebar .side-menu > li > a {
         width: 100%;
     }
 
-    #sidebarBLACK{
-           background: red;
+#sidebarBLACK{
+    background: red;
     float: left;
     height: 100%;
     padding-left: 45px;
     position: absolute;
-	width: 10px;
- 
-    }
+    width: 0px;
+}
 
 #sidebar {
     background: rgba(0,0,0,0.3);
